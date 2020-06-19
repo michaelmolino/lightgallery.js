@@ -918,6 +918,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   cursor: grabbing;
 }
 
+.lg-lightgallery {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .lg-outer .lg {
   height: 100%;
   width: 100%;

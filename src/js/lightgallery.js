@@ -320,7 +320,7 @@ Plugin.prototype.structure = function() {
         'aria-describedby="' + this.s.ariaDescribedby + '"' : '';
 
     template = '<div tabindex="-1" aria-modal="true" ' + ariaLabelledby + ' ' + ariaDescribedby + ' role="dialog" class="lg-outer ' + this.s.addClass + ' ' + this.s.startClass + '">' +
-        '<div class="lg" style="width:' + this.s.width + '; height:' + this.s.height + '">' +
+        '<div class="lg-lightgallery" style="width:' + this.s.width + '; height:' + this.s.height + '">' +
         '<div class="lg-inner">' + list + '</div>' +
         '<div class="lg-toolbar group">' +
         '<button type="button" aria-label="Close gallery" class="lg-close lg-icon"></button>' +
